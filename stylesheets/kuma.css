@@ -1,0 +1,67 @@
+div#main {
+    position: relative;
+    margin: 0 auto 80px;
+}
+
+div#eye {
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+    border: 1px solid #b72;
+}
+
+div#eye div {
+    position: absolute;
+    background: #533;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    top: 0;
+}
+
+div#eye div#eye-l {
+    left: 0;
+}
+
+div#eye div#eye-r {
+    right: 0;
+}
+
+div#face {
+    position: relative;
+    margin: 8px auto 0;
+    background: #fff;
+    border: 1px solid;
+    border-radius: 51px 51px 40px 40px / 40px 40px 30px 30px;
+    width: 100px;
+    height: 70px;
+}
+
+div#nose {
+    margin: 10px auto 0;
+    background: #533;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+div.mouth {
+    position: absolute;
+    border: 5px solid #533;
+    border-radius: 5px;
+    width: 25px;
+}
+
+div#mouth-l {
+    -webkit-transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg);
+    -o-transform: rotate(-40deg);
+    right: 45px;
+}
+
+div#mouth-r {
+    -webkit-transform: rotate(40deg);
+    -moz-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+    left: 45px;
+}
