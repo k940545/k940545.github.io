@@ -1,2 +1,2 @@
 record something.  
-https://k940545.github.io/map/
+https://k940545.github.io/
